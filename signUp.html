@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the membership</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/signUp.css">
+</head>
+
+<body>
+    <div id="join">
+        <h3>Join</h3>
+        <form id="joinForm" name="joinForm" method="post">
+            <label for="joinId"></label> <b>ID</b>
+            <button type="button" id="joinIdCh">&ensp;ID 중복 확인&ensp;</button> <br>
+            <input type="text" name="joinId" id="joinId" placeholder="아이디 입력" required> <br>
+
+            <label for="joinName"></label> <b>NAME</b> <br>
+            <input type="text" name="joinName" id="joinName" placeholder="이름 입력" required> <br>
+
+            <label for="joinTel"></label><p><b>PHONE NUMBER</b>&ensp;하이픈(-) 빼고 입력바랍니다.</p> <br>
+            <input type="tel" name="joinTel" id="joinTel" placeholder="전화번호 입력 (숫자 11개)" required> <br>
+
+            <label for="joinPw"></label> <b>PASSWORD</b> <br>
+            <input type="password" name="joinPw" id="joinPw" placeholder="비밀번호 입력" required> <br>
+
+            <label for="checkPw"></label> <b>CHECK PASSWORD</b> <br>
+            <input type="password" name="checkPw" id="checkPw" placeholder="비밀번호 재입력" required>
+            <p id="chPwP"></p> <br>
+            <input type="button" value="회원가입" id="joinButton"> <br>
+        </form>
+        <a href="./login.html"><button type="button" class="newWin">&ensp;로그인&ensp;</button></a>
+        <a href="./findId.html"><button type="button" class="newWin">&ensp;아이디 찾기&ensp;</button></a>
+        <a href="./findPw.html"><button type="button" class="newWin">&ensp;비밀번호 찾기&ensp;</button></a>
+    </div>
+    <script src="js/signUp.js"></script>
+</body>
+
+</html>

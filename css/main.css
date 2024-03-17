@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative; 
+}
+
+#user-info {
+    position: absolute;
+    top: 50%;
+    right: 1em;
+    transform: translateY(-50%);
+    color: #fff; 
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 1em;
+}
+
+button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#authentication button {
+    margin-right: 1em;
+}
+
+#additional-info {
+    background-color: #f0f0f0;
+    padding: 1em;
+}
+
+#additional-info img {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* 가운데 정렬을 위해 */
+}

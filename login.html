@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    <!-- <script src="../JQuery/js/jquery-3.7.1.js"></script> -->
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="login">
+        <h3>Login</h3>
+        <form id="login-form">
+            <input type="text" name="userId" id="userId" placeholder="아이디">
+            <input type="password" name="userPassword" id="userPassword" placeholder="비밀번호">
+
+            <label for="remember-check">
+                <input type="checkbox" id="remember-check">아이디 저장하기
+            </label>
+
+            <input type="submit" name="login-btn" id="login-btn" value="로그인">
+            <!-- type = 'submit' -->
+            <a href="../Project/signUp.html" type="button">회원가입</a> |
+            <a href="../Project/findId.html" type="button">아이디 찾기</a> |
+            <a href="../Project/findPw.html" type="button">비밀번호 찾기</a> 
+            
+        </form>    
+    </div>
+    <script src="js/login.js"></script>
+</body>
+</html>
